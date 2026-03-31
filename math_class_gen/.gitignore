@@ -1,0 +1,16 @@
+# Local environment
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# Generated artifacts
+logs/
+
+# Local outputs
+*.error.log
+*.html
