@@ -100,7 +100,7 @@ def _ai_call(system: str, user: str, images: Optional[list[dict]] = None) -> str
         "contents": messages,
         "generationConfig": {
             "temperature": 0.1,
-            "responseModalities": ["IMAGE"],  # 同时返回文字 + 图片
+            # "responseModalities": ["IMAGE"],  # 同时返回文字 + 图片
         }
     }
     headers = {
