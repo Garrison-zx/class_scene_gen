@@ -1,0 +1,88 @@
+{
+  "name": "Tech Dark",
+  "description": "科技暗色风格：深蓝背景、白色文字、蓝色强调、代码友好",
+
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30
+  },
+
+  "colors": {
+    "background": "#0F1729",
+    "primary": "#FFFFFF",
+    "secondary": "#94A3B8",
+    "accent": "#3B82F6",
+    "text": "#E2E8F0",
+    "textSecondary": "#94A3B8",
+    "success": "#22C55E",
+    "warning": "#F59E0B",
+    "error": "#EF4444"
+  },
+
+  "typography": {
+    "titleFont": "Inter",
+    "titleSize": 64,
+    "titleWeight": 700,
+    "bodyFont": "Inter",
+    "bodySize": 28,
+    "bodyWeight": 400,
+    "codeFont": "JetBrains Mono",
+    "codeSize": 22,
+    "lineHeight": 1.5
+  },
+
+  "layout": {
+    "padding": { "top": 100, "bottom": 100, "left": 120, "right": 120 },
+    "titlePosition": "top-left",
+    "contentAlignment": "left",
+    "maxContentWidth": 1400
+  },
+
+  "animations": {
+    "enterType": "fadeIn",
+    "enterDuration": 20,
+    "exitType": "fadeOut",
+    "exitDuration": 15,
+    "stagger": 6,
+    "easing": "easeInOutCubic"
+  },
+
+  "components": {
+    "codeBlock": {
+      "background": "#1E293B",
+      "borderRadius": 12,
+      "padding": 32,
+      "syntaxTheme": "one-dark",
+      "lineNumberColor": "#475569",
+      "highlightLine": "rgba(59, 130, 246, 0.15)"
+    },
+    "bullet": {
+      "icon": "chevron",
+      "iconColor": "#3B82F6",
+      "iconSize": 14,
+      "indent": 36,
+      "spacing": 16
+    },
+    "diagram": {
+      "nodeBackground": "#1E293B",
+      "nodeBorder": "#334155",
+      "nodeBorderRadius": 12,
+      "arrowColor": "#94A3B8",
+      "highlightColor": "#3B82F6",
+      "labelColor": "#E2E8F0"
+    },
+    "progressBar": {
+      "show": true,
+      "position": "bottom",
+      "color": "#3B82F6",
+      "height": 3,
+      "background": "rgba(255,255,255,0.1)"
+    }
+  },
+
+  "transitions": {
+    "between_scenes": "crossfade",
+    "duration": 15
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "name": "3Blue1Brown (Manim Style)",
+  "description": "3Blue1Brown 数学动画风格：深色背景、几何配色、数学优雅感",
+
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30
+  },
+
+  "colors": {
+    "background": "#1C1C2E",
+    "primary": "#FFFFFF",
+    "secondary": "#AAAACC",
+    "accent": "#58C4DD",
+    "text": "#FFFFFF",
+    "textSecondary": "#AAAACC",
+    "blue": "#58C4DD",
+    "green": "#83C167",
+    "yellow": "#FFFF00",
+    "red": "#FC6255",
+    "purple": "#9A72AC",
+    "orange": "#FF8C00"
+  },
+
+  "typography": {
+    "titleFont": "CMU Serif, 'Times New Roman', serif",
+    "titleSize": 56,
+    "titleWeight": 400,
+    "bodyFont": "CMU Serif, 'Times New Roman', serif",
+    "bodySize": 32,
+    "bodyWeight": 400,
+    "codeFont": "JetBrains Mono",
+    "codeSize": 24,
+    "mathFont": "KaTeX_Main, CMU Serif, serif",
+    "lineHeight": 1.5
+  },
+
+  "layout": {
+    "padding": { "top": 60, "bottom": 60, "left": 80, "right": 80 },
+    "titlePosition": "top-center",
+    "contentAlignment": "center",
+    "maxContentWidth": 1600
+  },
+
+  "animations": {
+    "enterType": "write",
+    "enterDuration": 30,
+    "exitType": "fadeOut",
+    "exitDuration": 15,
+    "stagger": 5,
+    "easing": "easeInOutSine",
+    "morphDuration": 40,
+    "transformEasing": "easeInOutCubic"
+  },
+
+  "components": {
+    "codeBlock": {
+      "background": "rgba(0,0,0,0.4)",
+      "borderRadius": 8,
+      "padding": 24,
+      "syntaxTheme": "monokai"
+    },
+    "bullet": {
+      "icon": "arrow",
+      "iconColor": "#58C4DD",
+      "iconSize": 14,
+      "indent": 32,
+      "spacing": 16
+    },
+    "diagram": {
+      "nodeBackground": "transparent",
+      "nodeBorder": "#58C4DD",
+      "nodeBorderRadius": 50,
+      "arrowColor": "#AAAACC",
+      "highlightColor": "#FFFF00",
+      "labelColor": "#FFFFFF"
+    },
+    "math": {
+      "fontSize": 48,
+      "color": "#FFFFFF",
+      "highlightColor": "#58C4DD",
+      "annotationColor": "#83C167"
+    },
+    "progressBar": {
+      "show": false
+    }
+  },
+
+  "transitions": {
+    "between_scenes": "fadethrough",
+    "duration": 20
+  }
+}

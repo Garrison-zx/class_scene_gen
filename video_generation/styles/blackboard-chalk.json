@@ -1,0 +1,89 @@
+{
+  "name": "Blackboard Chalk",
+  "description": "黑板粉笔风格：深绿黑板背景、粉笔白字、手写感、教室氛围",
+
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30
+  },
+
+  "colors": {
+    "background": "#2D3A2D",
+    "primary": "#F5F0E1",
+    "secondary": "#C8C0AA",
+    "accent": "#FFD166",
+    "text": "#F5F0E1",
+    "textSecondary": "#C8C0AA",
+    "success": "#8FCB9B",
+    "warning": "#FFD166",
+    "error": "#E07A5F"
+  },
+
+  "typography": {
+    "titleFont": "Caveat, 'Comic Sans MS', cursive",
+    "titleSize": 68,
+    "titleWeight": 700,
+    "bodyFont": "Caveat, 'Comic Sans MS', cursive",
+    "bodySize": 32,
+    "bodyWeight": 400,
+    "codeFont": "JetBrains Mono",
+    "codeSize": 22,
+    "lineHeight": 1.6
+  },
+
+  "layout": {
+    "padding": { "top": 80, "bottom": 80, "left": 100, "right": 100 },
+    "titlePosition": "top-left",
+    "contentAlignment": "left",
+    "maxContentWidth": 1500
+  },
+
+  "animations": {
+    "enterType": "handwrite",
+    "enterDuration": 30,
+    "exitType": "fadeOut",
+    "exitDuration": 10,
+    "stagger": 10,
+    "easing": "easeOutQuart"
+  },
+
+  "components": {
+    "codeBlock": {
+      "background": "rgba(0,0,0,0.3)",
+      "borderRadius": 8,
+      "padding": 28,
+      "syntaxTheme": "chalk",
+      "lineNumberColor": "#8A8570",
+      "highlightLine": "rgba(255, 209, 102, 0.15)"
+    },
+    "bullet": {
+      "icon": "dash",
+      "iconColor": "#FFD166",
+      "iconSize": 16,
+      "indent": 32,
+      "spacing": 20
+    },
+    "diagram": {
+      "nodeBackground": "rgba(0,0,0,0.25)",
+      "nodeBorder": "#C8C0AA",
+      "nodeBorderRadius": 4,
+      "arrowColor": "#F5F0E1",
+      "highlightColor": "#FFD166",
+      "labelColor": "#F5F0E1"
+    },
+    "progressBar": {
+      "show": false
+    },
+    "boardTexture": {
+      "enabled": true,
+      "scratches": true,
+      "dustParticles": true
+    }
+  },
+
+  "transitions": {
+    "between_scenes": "wipe",
+    "duration": 15
+  }
+}

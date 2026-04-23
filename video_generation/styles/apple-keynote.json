@@ -1,0 +1,84 @@
+{
+  "name": "Apple Keynote",
+  "description": "苹果发布会风格：纯黑背景、大字标题、极简动画、高级感",
+
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30
+  },
+
+  "colors": {
+    "background": "#000000",
+    "primary": "#FFFFFF",
+    "secondary": "#86868B",
+    "accent": "#0071E3",
+    "text": "#F5F5F7",
+    "textSecondary": "#86868B",
+    "success": "#30D158",
+    "warning": "#FFD60A",
+    "error": "#FF453A"
+  },
+
+  "typography": {
+    "titleFont": "SF Pro Display, -apple-system, BlinkMacSystemFont, Inter",
+    "titleSize": 72,
+    "titleWeight": 700,
+    "bodyFont": "SF Pro Text, -apple-system, BlinkMacSystemFont, Inter",
+    "bodySize": 32,
+    "bodyWeight": 400,
+    "codeFont": "SF Mono, JetBrains Mono, monospace",
+    "codeSize": 24,
+    "lineHeight": 1.4
+  },
+
+  "layout": {
+    "padding": { "top": 120, "bottom": 120, "left": 160, "right": 160 },
+    "titlePosition": "center",
+    "contentAlignment": "center",
+    "maxContentWidth": 1200
+  },
+
+  "animations": {
+    "enterType": "fadeIn",
+    "enterDuration": 25,
+    "exitType": "fadeOut",
+    "exitDuration": 20,
+    "stagger": 8,
+    "easing": "easeOutCubic"
+  },
+
+  "components": {
+    "codeBlock": {
+      "background": "#1D1D1F",
+      "borderRadius": 16,
+      "padding": 40,
+      "syntaxTheme": "one-dark",
+      "lineNumberColor": "#48484A",
+      "highlightLine": "rgba(0, 113, 227, 0.15)"
+    },
+    "bullet": {
+      "icon": "circle",
+      "iconColor": "#0071E3",
+      "iconSize": 12,
+      "indent": 40,
+      "spacing": 20
+    },
+    "diagram": {
+      "nodeBackground": "#1D1D1F",
+      "nodeBorder": "#333333",
+      "nodeBorderRadius": 16,
+      "arrowColor": "#86868B",
+      "highlightColor": "#0071E3",
+      "labelColor": "#F5F5F7"
+    },
+    "progressBar": {
+      "show": false
+    }
+  },
+
+  "transitions": {
+    "between_scenes": "crossfade",
+    "duration": 20
+  }
+}
