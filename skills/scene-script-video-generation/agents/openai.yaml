@@ -1,0 +1,7 @@
+interface:
+  display_name: "场景剧本视频生成"
+  short_description: "将场景剧本生成完整课程视频"
+  default_prompt: "使用 $scene-script-video-generation 根据场景剧本生成场景图、过渡视频、对白配音、带声音片段和最终合成 MP4。"
+
+policy:
+  allow_implicit_invocation: true

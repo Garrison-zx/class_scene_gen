@@ -1,0 +1,22 @@
+{
+  "script_path": "/private/tmp/openmaic_scene10_scripts/scene_10_script.md",
+  "text_mode": "dialogue",
+  "audio_format": "m4a",
+  "audio_duration_ms": 4727,
+  "segments": [
+    {
+      "speaker": "沙僧",
+      "text": "还请师傅赐教！",
+      "voice_type": "zh_male_lengkugege_emo_v2_mars_bigtts",
+      "duration_ms": 1497,
+      "audio_path": "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/math_class_gen/generated_audios_multivoice_test/scene_10_script_segment_01_沙僧.mp3"
+    },
+    {
+      "speaker": "唐僧",
+      "text": "利用基底法解决向量综合问题",
+      "voice_type": "zh_male_qingcang_mars_bigtts",
+      "duration_ms": 3230,
+      "audio_path": "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/math_class_gen/generated_audios_multivoice_test/scene_10_script_segment_02_唐僧.mp3"
+    }
+  ]
+}

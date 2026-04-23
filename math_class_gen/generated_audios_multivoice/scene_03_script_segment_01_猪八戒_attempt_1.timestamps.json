@@ -1,0 +1,112 @@
+{
+  "words": [
+    {
+      "confidence": 0.83378536,
+      "end_time": 505,
+      "start_time": 255,
+      "word": "师"
+    },
+    {
+      "confidence": 0.80335826,
+      "end_time": 835,
+      "start_time": 505,
+      "word": "傅，"
+    },
+    {
+      "confidence": 0.9370269,
+      "end_time": 1195,
+      "start_time": 1015,
+      "word": "快"
+    },
+    {
+      "confidence": 0.9043218,
+      "end_time": 1405,
+      "start_time": 1195,
+      "word": "别"
+    },
+    {
+      "confidence": 0.9355361,
+      "end_time": 1635,
+      "start_time": 1405,
+      "word": "墨"
+    },
+    {
+      "confidence": 0.75333273,
+      "end_time": 1775,
+      "start_time": 1635,
+      "word": "迹"
+    },
+    {
+      "confidence": 0.9683419,
+      "end_time": 2025,
+      "start_time": 1775,
+      "word": "了，"
+    },
+    {
+      "confidence": 0.92195094,
+      "end_time": 2445,
+      "start_time": 2285,
+      "word": "有"
+    },
+    {
+      "confidence": 0.9373881,
+      "end_time": 2595,
+      "start_time": 2445,
+      "word": "什"
+    },
+    {
+      "confidence": 0.9823583,
+      "end_time": 2675,
+      "start_time": 2595,
+      "word": "么"
+    },
+    {
+      "confidence": 0.9687027,
+      "end_time": 2875,
+      "start_time": 2675,
+      "word": "手"
+    },
+    {
+      "confidence": 0.95074934,
+      "end_time": 3105,
+      "start_time": 2875,
+      "word": "段"
+    },
+    {
+      "confidence": 0.96482736,
+      "end_time": 3255,
+      "start_time": 3135,
+      "word": "你"
+    },
+    {
+      "confidence": 0.97609884,
+      "end_time": 3375,
+      "start_time": 3255,
+      "word": "就"
+    },
+    {
+      "confidence": 0.76569515,
+      "end_time": 3605,
+      "start_time": 3375,
+      "word": "使"
+    },
+    {
+      "confidence": 0.9624885,
+      "end_time": 3785,
+      "start_time": 3605,
+      "word": "出"
+    },
+    {
+      "confidence": 0.97748375,
+      "end_time": 3945,
+      "start_time": 3785,
+      "word": "来"
+    },
+    {
+      "confidence": 0.9568018,
+      "end_time": 4496,
+      "start_time": 3945,
+      "word": "吧！"
+    }
+  ]
+}

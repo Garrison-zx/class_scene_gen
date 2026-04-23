@@ -1,0 +1,15 @@
+{
+  "script_path": "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/math_class_gen/class_materials/scene_05_script.md",
+  "text_mode": "dialogue",
+  "audio_format": "m4a",
+  "audio_duration_ms": 2873,
+  "segments": [
+    {
+      "speaker": "小白龙",
+      "text": "师傅，快教我们上乘佛法吧！",
+      "voice_type": "zh_male_yangguangqingnian_mars_bigtts",
+      "duration_ms": 2873,
+      "audio_path": "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/math_class_gen/generated_audios_multivoice/scene_05_script_segment_01_小白龙.mp3"
+    }
+  ]
+}

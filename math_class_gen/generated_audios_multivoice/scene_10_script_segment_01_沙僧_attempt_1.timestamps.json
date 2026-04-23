@@ -1,0 +1,40 @@
+{
+  "words": [
+    {
+      "confidence": 0.7452969,
+      "end_time": 715,
+      "start_time": 515,
+      "word": "还"
+    },
+    {
+      "confidence": 0.8501037,
+      "end_time": 845,
+      "start_time": 715,
+      "word": "请"
+    },
+    {
+      "confidence": 0.8005964,
+      "end_time": 1005,
+      "start_time": 845,
+      "word": "师"
+    },
+    {
+      "confidence": 0.83535236,
+      "end_time": 1115,
+      "start_time": 1005,
+      "word": "傅"
+    },
+    {
+      "confidence": 0.8589569,
+      "end_time": 1235,
+      "start_time": 1115,
+      "word": "赐"
+    },
+    {
+      "confidence": 0.92792964,
+      "end_time": 1616,
+      "start_time": 1235,
+      "word": "教！"
+    }
+  ]
+}

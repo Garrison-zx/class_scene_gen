@@ -1,0 +1,40 @@
+{
+  "words": [
+    {
+      "confidence": 0.8834839,
+      "end_time": 645,
+      "start_time": 345,
+      "word": "下"
+    },
+    {
+      "confidence": 0.8234767,
+      "end_time": 715,
+      "start_time": 645,
+      "word": "一"
+    },
+    {
+      "confidence": 0.915356,
+      "end_time": 1281,
+      "start_time": 715,
+      "word": "步。"
+    },
+    {
+      "confidence": 0.88882244,
+      "end_time": 1806,
+      "start_time": 1506,
+      "word": "下"
+    },
+    {
+      "confidence": 0.85157,
+      "end_time": 1886,
+      "start_time": 1806,
+      "word": "一"
+    },
+    {
+      "confidence": 0.79200524,
+      "end_time": 2436,
+      "start_time": 1886,
+      "word": "步"
+    }
+  ]
+}

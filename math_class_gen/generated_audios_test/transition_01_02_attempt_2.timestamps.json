@@ -1,0 +1,1000 @@
+{
+  "words": [
+    {
+      "confidence": 0.92429304,
+      "end_time": 315,
+      "start_time": 175,
+      "word": "场"
+    },
+    {
+      "confidence": 0.93410534,
+      "end_time": 435,
+      "start_time": 315,
+      "word": "景"
+    },
+    {
+      "confidence": 0.9702274,
+      "end_time": 595,
+      "start_time": 465,
+      "word": "二"
+    },
+    {
+      "confidence": 0.80516917,
+      "end_time": 685,
+      "start_time": 595,
+      "word": "课"
+    },
+    {
+      "confidence": 0.83130175,
+      "end_time": 775,
+      "start_time": 685,
+      "word": "堂"
+    },
+    {
+      "confidence": 0.8686479,
+      "end_time": 885,
+      "start_time": 775,
+      "word": "剧"
+    },
+    {
+      "confidence": 0.9142276,
+      "end_time": 985,
+      "start_time": 885,
+      "word": "本。"
+    },
+    {
+      "confidence": 0.925579,
+      "end_time": 1395,
+      "start_time": 1195,
+      "word": "人"
+    },
+    {
+      "confidence": 0.7179181,
+      "end_time": 1455,
+      "start_time": 1395,
+      "word": "物"
+    },
+    {
+      "confidence": 0.9275327,
+      "end_time": 1595,
+      "start_time": 1455,
+      "word": "调"
+    },
+    {
+      "confidence": 0.67693275,
+      "end_time": 1665,
+      "start_time": 1595,
+      "word": "度。"
+    },
+    {
+      "confidence": 0.80892813,
+      "end_time": 2025,
+      "start_time": 1895,
+      "word": "唐"
+    },
+    {
+      "confidence": 0.7019921,
+      "end_time": 2115,
+      "start_time": 2025,
+      "word": "僧"
+    },
+    {
+      "confidence": 0.9007707,
+      "end_time": 2235,
+      "start_time": 2115,
+      "word": "神"
+    },
+    {
+      "confidence": 0.8644487,
+      "end_time": 2355,
+      "start_time": 2235,
+      "word": "情"
+    },
+    {
+      "confidence": 0.8463311,
+      "end_time": 2445,
+      "start_time": 2355,
+      "word": "自"
+    },
+    {
+      "confidence": 0.8735742,
+      "end_time": 2565,
+      "start_time": 2445,
+      "word": "信，"
+    },
+    {
+      "confidence": 0.8561388,
+      "end_time": 2835,
+      "start_time": 2735,
+      "word": "右"
+    },
+    {
+      "confidence": 0.7908211,
+      "end_time": 2925,
+      "start_time": 2835,
+      "word": "手"
+    },
+    {
+      "confidence": 0.8598557,
+      "end_time": 3045,
+      "start_time": 2925,
+      "word": "抬"
+    },
+    {
+      "confidence": 0.9410629,
+      "end_time": 3185,
+      "start_time": 3045,
+      "word": "起"
+    },
+    {
+      "confidence": 0.9530807,
+      "end_time": 3275,
+      "start_time": 3185,
+      "word": "做"
+    },
+    {
+      "confidence": 0.9083506,
+      "end_time": 3395,
+      "start_time": 3275,
+      "word": "授"
+    },
+    {
+      "confidence": 0.87054884,
+      "end_time": 3505,
+      "start_time": 3395,
+      "word": "课"
+    },
+    {
+      "confidence": 0.92468226,
+      "end_time": 3615,
+      "start_time": 3505,
+      "word": "手"
+    },
+    {
+      "confidence": 0.8754229,
+      "end_time": 3735,
+      "start_time": 3615,
+      "word": "势，"
+    },
+    {
+      "confidence": 0.89357597,
+      "end_time": 4145,
+      "start_time": 4005,
+      "word": "人"
+    },
+    {
+      "confidence": 0.59166324,
+      "end_time": 4185,
+      "start_time": 4145,
+      "word": "物"
+    },
+    {
+      "confidence": 0.8331914,
+      "end_time": 4325,
+      "start_time": 4185,
+      "word": "旁"
+    },
+    {
+      "confidence": 0.80807483,
+      "end_time": 4495,
+      "start_time": 4405,
+      "word": "有"
+    },
+    {
+      "confidence": 0.7746298,
+      "end_time": 4615,
+      "start_time": 4495,
+      "word": "对"
+    },
+    {
+      "confidence": 0.8682198,
+      "end_time": 4705,
+      "start_time": 4615,
+      "word": "话"
+    },
+    {
+      "confidence": 0.81547457,
+      "end_time": 4805,
+      "start_time": 4705,
+      "word": "气"
+    },
+    {
+      "confidence": 0.7274133,
+      "end_time": 4885,
+      "start_time": 4805,
+      "word": "泡，"
+    },
+    {
+      "confidence": 0.8406759,
+      "end_time": 5175,
+      "start_time": 5045,
+      "word": "内"
+    },
+    {
+      "confidence": 0.78823256,
+      "end_time": 5255,
+      "start_time": 5175,
+      "word": "含"
+    },
+    {
+      "confidence": 0.72201073,
+      "end_time": 5375,
+      "start_time": 5255,
+      "word": "台"
+    },
+    {
+      "confidence": 0.29726213,
+      "end_time": 5505,
+      "start_time": 5475,
+      "word": "词：“"
+    },
+    {
+      "confidence": 0.76471704,
+      "end_time": 5905,
+      "start_time": 5765,
+      "word": "徒"
+    },
+    {
+      "confidence": 0.40405715,
+      "end_time": 5935,
+      "start_time": 5905,
+      "word": "儿"
+    },
+    {
+      "confidence": 0.7609592,
+      "end_time": 6196,
+      "start_time": 5935,
+      "word": "们，"
+    },
+    {
+      "confidence": 0.80811477,
+      "end_time": 6361,
+      "start_time": 6291,
+      "word": "为"
+    },
+    {
+      "confidence": 0.70829684,
+      "end_time": 6491,
+      "start_time": 6361,
+      "word": "师"
+    },
+    {
+      "confidence": 0.86320627,
+      "end_time": 6571,
+      "start_time": 6491,
+      "word": "今"
+    },
+    {
+      "confidence": 0.94387454,
+      "end_time": 6651,
+      "start_time": 6571,
+      "word": "天"
+    },
+    {
+      "confidence": 0.8400246,
+      "end_time": 6751,
+      "start_time": 6651,
+      "word": "传"
+    },
+    {
+      "confidence": 0.79060894,
+      "end_time": 6851,
+      "start_time": 6751,
+      "word": "授"
+    },
+    {
+      "confidence": 0.9347943,
+      "end_time": 6981,
+      "start_time": 6851,
+      "word": "新"
+    },
+    {
+      "confidence": 0.94170547,
+      "end_time": 7051,
+      "start_time": 6981,
+      "word": "的"
+    },
+    {
+      "confidence": 0.7941291,
+      "end_time": 7141,
+      "start_time": 7051,
+      "word": "佛"
+    },
+    {
+      "confidence": 0.91028625,
+      "end_time": 7271,
+      "start_time": 7141,
+      "word": "法，"
+    },
+    {
+      "confidence": 0.86058736,
+      "end_time": 7491,
+      "start_time": 7381,
+      "word": "让"
+    },
+    {
+      "confidence": 0.89897573,
+      "end_time": 7551,
+      "start_time": 7491,
+      "word": "你"
+    },
+    {
+      "confidence": 0.84081674,
+      "end_time": 7611,
+      "start_time": 7551,
+      "word": "们"
+    },
+    {
+      "confidence": 0.95291543,
+      "end_time": 7681,
+      "start_time": 7611,
+      "word": "在"
+    },
+    {
+      "confidence": 0.9618949,
+      "end_time": 7811,
+      "start_time": 7681,
+      "word": "向"
+    },
+    {
+      "confidence": 0.8886668,
+      "end_time": 7911,
+      "start_time": 7811,
+      "word": "量"
+    },
+    {
+      "confidence": 0.884313,
+      "end_time": 8001,
+      "start_time": 7911,
+      "word": "辩"
+    },
+    {
+      "confidence": 0.84918064,
+      "end_time": 8091,
+      "start_time": 8001,
+      "word": "法"
+    },
+    {
+      "confidence": 0.9112243,
+      "end_time": 8181,
+      "start_time": 8091,
+      "word": "中"
+    },
+    {
+      "confidence": 0.93611324,
+      "end_time": 8411,
+      "start_time": 8291,
+      "word": "大"
+    },
+    {
+      "confidence": 0.9101049,
+      "end_time": 8561,
+      "start_time": 8411,
+      "word": "杀"
+    },
+    {
+      "confidence": 0.7569619,
+      "end_time": 8661,
+      "start_time": 8561,
+      "word": "四"
+    },
+    {
+      "confidence": 0.34197673,
+      "end_time": 8691,
+      "start_time": 8661,
+      "word": "方！”"
+    },
+    {
+      "confidence": 0.9507085,
+      "end_time": 9111,
+      "start_time": 9031,
+      "word": "他"
+    },
+    {
+      "confidence": 0.89136577,
+      "end_time": 9171,
+      "start_time": 9111,
+      "word": "的"
+    },
+    {
+      "confidence": 0.91542757,
+      "end_time": 9261,
+      "start_time": 9171,
+      "word": "讲"
+    },
+    {
+      "confidence": 0.95758045,
+      "end_time": 9391,
+      "start_time": 9261,
+      "word": "述"
+    },
+    {
+      "confidence": 0.9540379,
+      "end_time": 9511,
+      "start_time": 9391,
+      "word": "占"
+    },
+    {
+      "confidence": 0.8767961,
+      "end_time": 9601,
+      "start_time": 9511,
+      "word": "据"
+    },
+    {
+      "confidence": 0.9566821,
+      "end_time": 9711,
+      "start_time": 9601,
+      "word": "画"
+    },
+    {
+      "confidence": 0.9017873,
+      "end_time": 9781,
+      "start_time": 9711,
+      "word": "面"
+    },
+    {
+      "confidence": 0.91624624,
+      "end_time": 9861,
+      "start_time": 9781,
+      "word": "中"
+    },
+    {
+      "confidence": 0.9637103,
+      "end_time": 9981,
+      "start_time": 9861,
+      "word": "心，"
+    },
+    {
+      "confidence": 0.9153659,
+      "end_time": 10261,
+      "start_time": 10141,
+      "word": "正"
+    },
+    {
+      "confidence": 0.878264,
+      "end_time": 10381,
+      "start_time": 10261,
+      "word": "式"
+    },
+    {
+      "confidence": 0.9306818,
+      "end_time": 10481,
+      "start_time": 10381,
+      "word": "课"
+    },
+    {
+      "confidence": 0.8500412,
+      "end_time": 10551,
+      "start_time": 10481,
+      "word": "堂"
+    },
+    {
+      "confidence": 0.82254404,
+      "end_time": 10671,
+      "start_time": 10551,
+      "word": "气"
+    },
+    {
+      "confidence": 0.92705446,
+      "end_time": 10791,
+      "start_time": 10671,
+      "word": "氛"
+    },
+    {
+      "confidence": 0.8518705,
+      "end_time": 11061,
+      "start_time": 10931,
+      "word": "由"
+    },
+    {
+      "confidence": 0.9215169,
+      "end_time": 11171,
+      "start_time": 11061,
+      "word": "此"
+    },
+    {
+      "confidence": 0.95964235,
+      "end_time": 11281,
+      "start_time": 11171,
+      "word": "建"
+    },
+    {
+      "confidence": 0.9046057,
+      "end_time": 11540,
+      "start_time": 11281,
+      "word": "立。"
+    },
+    {
+      "confidence": 0.7428236,
+      "end_time": 11775,
+      "start_time": 11655,
+      "word": "四"
+    },
+    {
+      "confidence": 0.6753816,
+      "end_time": 11845,
+      "start_time": 11775,
+      "word": "名"
+    },
+    {
+      "confidence": 0.73097456,
+      "end_time": 11935,
+      "start_time": 11845,
+      "word": "学"
+    },
+    {
+      "confidence": 0.8638865,
+      "end_time": 12055,
+      "start_time": 11935,
+      "word": "生"
+    },
+    {
+      "confidence": 0.88781077,
+      "end_time": 12275,
+      "start_time": 12155,
+      "word": "都"
+    },
+    {
+      "confidence": 0.8526046,
+      "end_time": 12365,
+      "start_time": 12275,
+      "word": "坐"
+    },
+    {
+      "confidence": 0.90849984,
+      "end_time": 12465,
+      "start_time": 12365,
+      "word": "在"
+    },
+    {
+      "confidence": 0.71493626,
+      "end_time": 12575,
+      "start_time": 12465,
+      "word": "各"
+    },
+    {
+      "confidence": 0.6969099,
+      "end_time": 12665,
+      "start_time": 12575,
+      "word": "自"
+    },
+    {
+      "confidence": 0.9115341,
+      "end_time": 12785,
+      "start_time": 12665,
+      "word": "独"
+    },
+    {
+      "confidence": 0.76912946,
+      "end_time": 12855,
+      "start_time": 12785,
+      "word": "立"
+    },
+    {
+      "confidence": 0.7902681,
+      "end_time": 12955,
+      "start_time": 12855,
+      "word": "课"
+    },
+    {
+      "confidence": 0.7945916,
+      "end_time": 13035,
+      "start_time": 12955,
+      "word": "桌"
+    },
+    {
+      "confidence": 0.78988725,
+      "end_time": 13145,
+      "start_time": 13035,
+      "word": "前，"
+    },
+    {
+      "confidence": 0.9067627,
+      "end_time": 13475,
+      "start_time": 13295,
+      "word": "身"
+    },
+    {
+      "confidence": 0.9441196,
+      "end_time": 13645,
+      "start_time": 13475,
+      "word": "体"
+    },
+    {
+      "confidence": 0.6887533,
+      "end_time": 13845,
+      "start_time": 13725,
+      "word": "和"
+    },
+    {
+      "confidence": 0.9477198,
+      "end_time": 13995,
+      "start_time": 13845,
+      "word": "头"
+    },
+    {
+      "confidence": 0.86270475,
+      "end_time": 14105,
+      "start_time": 13995,
+      "word": "部"
+    },
+    {
+      "confidence": 0.8897154,
+      "end_time": 14275,
+      "start_time": 14145,
+      "word": "朝"
+    },
+    {
+      "confidence": 0.82168525,
+      "end_time": 14355,
+      "start_time": 14275,
+      "word": "向"
+    },
+    {
+      "confidence": 0.93641275,
+      "end_time": 14455,
+      "start_time": 14355,
+      "word": "黑"
+    },
+    {
+      "confidence": 0.7845877,
+      "end_time": 14545,
+      "start_time": 14455,
+      "word": "板，"
+    },
+    {
+      "confidence": 0.77972,
+      "end_time": 14845,
+      "start_time": 14705,
+      "word": "不"
+    },
+    {
+      "confidence": 0.7522937,
+      "end_time": 14895,
+      "start_time": 14845,
+      "word": "要"
+    },
+    {
+      "confidence": 0.88437855,
+      "end_time": 14995,
+      "start_time": 14895,
+      "word": "面"
+    },
+    {
+      "confidence": 0.8258918,
+      "end_time": 15085,
+      "start_time": 14995,
+      "word": "向"
+    },
+    {
+      "confidence": 0.84881335,
+      "end_time": 15175,
+      "start_time": 15085,
+      "word": "镜"
+    },
+    {
+      "confidence": 0.76935256,
+      "end_time": 15265,
+      "start_time": 15175,
+      "word": "头。"
+    },
+    {
+      "confidence": 0.94497454,
+      "end_time": 15665,
+      "start_time": 15525,
+      "word": "黑"
+    },
+    {
+      "confidence": 0.90195465,
+      "end_time": 15765,
+      "start_time": 15665,
+      "word": "板"
+    },
+    {
+      "confidence": 0.85368997,
+      "end_time": 15855,
+      "start_time": 15765,
+      "word": "内"
+    },
+    {
+      "confidence": 0.74579686,
+      "end_time": 15925,
+      "start_time": 15855,
+      "word": "容。"
+    },
+    {
+      "confidence": 0.9397496,
+      "end_time": 16235,
+      "start_time": 16095,
+      "word": "黑"
+    },
+    {
+      "confidence": 0.86942464,
+      "end_time": 16315,
+      "start_time": 16235,
+      "word": "板"
+    },
+    {
+      "confidence": 0.95201206,
+      "end_time": 16425,
+      "start_time": 16315,
+      "word": "新"
+    },
+    {
+      "confidence": 0.77658796,
+      "end_time": 16545,
+      "start_time": 16425,
+      "word": "增"
+    },
+    {
+      "confidence": 0.72977877,
+      "end_time": 16595,
+      "start_time": 16545,
+      "word": "一"
+    },
+    {
+      "confidence": 0.9319327,
+      "end_time": 16685,
+      "start_time": 16595,
+      "word": "行"
+    },
+    {
+      "confidence": 0.85210323,
+      "end_time": 16815,
+      "start_time": 16685,
+      "word": "醒"
+    },
+    {
+      "confidence": 0.90173507,
+      "end_time": 16905,
+      "start_time": 16815,
+      "word": "目"
+    },
+    {
+      "confidence": 0.87283003,
+      "end_time": 17025,
+      "start_time": 16905,
+      "word": "标"
+    },
+    {
+      "confidence": 0.28705528,
+      "end_time": 17055,
+      "start_time": 17025,
+      "word": "语："
+    },
+    {
+      "confidence": 0.92042774,
+      "end_time": 17365,
+      "start_time": 17225,
+      "word": "今"
+    },
+    {
+      "confidence": 0.88078344,
+      "end_time": 17465,
+      "start_time": 17365,
+      "word": "日"
+    },
+    {
+      "confidence": 0.69605047,
+      "end_time": 17685,
+      "start_time": 17465,
+      "word": "绝"
+    },
+    {
+      "confidence": 0.3302309,
+      "end_time": 17715,
+      "start_time": 17685,
+      "word": "学："
+    },
+    {
+      "confidence": 0.9355633,
+      "end_time": 17995,
+      "start_time": 17905,
+      "word": "利"
+    },
+    {
+      "confidence": 0.92731637,
+      "end_time": 18075,
+      "start_time": 17995,
+      "word": "用"
+    },
+    {
+      "confidence": 0.8293925,
+      "end_time": 18185,
+      "start_time": 18075,
+      "word": "基"
+    },
+    {
+      "confidence": 0.75518906,
+      "end_time": 18255,
+      "start_time": 18185,
+      "word": "底"
+    },
+    {
+      "confidence": 0.8201877,
+      "end_time": 18345,
+      "start_time": 18255,
+      "word": "法"
+    },
+    {
+      "confidence": 0.6105392,
+      "end_time": 18435,
+      "start_time": 18345,
+      "word": "破"
+    },
+    {
+      "confidence": 0.910884,
+      "end_time": 18585,
+      "start_time": 18435,
+      "word": "题。"
+    },
+    {
+      "confidence": 0.83446527,
+      "end_time": 18945,
+      "start_time": 18845,
+      "word": "旁"
+    },
+    {
+      "confidence": 0.9251675,
+      "end_time": 19045,
+      "start_time": 18945,
+      "word": "注"
+    },
+    {
+      "confidence": 0.883483,
+      "end_time": 19155,
+      "start_time": 19045,
+      "word": "小"
+    },
+    {
+      "confidence": 0.26665267,
+      "end_time": 19185,
+      "start_time": 19155,
+      "word": "字："
+    },
+    {
+      "confidence": 0.6492258,
+      "end_time": 19585,
+      "start_time": 19485,
+      "word": "先"
+    },
+    {
+      "confidence": 0.6538383,
+      "end_time": 19715,
+      "start_time": 19585,
+      "word": "审"
+    },
+    {
+      "confidence": 0.9414976,
+      "end_time": 19935,
+      "start_time": 19715,
+      "word": "题，"
+    },
+    {
+      "confidence": 0.93905705,
+      "end_time": 20125,
+      "start_time": 19975,
+      "word": "再"
+    },
+    {
+      "confidence": 0.76060593,
+      "end_time": 20225,
+      "start_time": 20125,
+      "word": "选"
+    },
+    {
+      "confidence": 0.9676601,
+      "end_time": 20345,
+      "start_time": 20225,
+      "word": "方"
+    },
+    {
+      "confidence": 0.93127114,
+      "end_time": 20495,
+      "start_time": 20345,
+      "word": "法，"
+    },
+    {
+      "confidence": 0.9419051,
+      "end_time": 20685,
+      "start_time": 20535,
+      "word": "再"
+    },
+    {
+      "confidence": 0.7808663,
+      "end_time": 20775,
+      "start_time": 20685,
+      "word": "计"
+    },
+    {
+      "confidence": 0.7475703,
+      "end_time": 20950,
+      "start_time": 20775,
+      "word": "算。"
+    },
+    {
+      "confidence": 0.8116301,
+      "end_time": 21226,
+      "start_time": 21146,
+      "word": "内"
+    },
+    {
+      "confidence": 0.86298454,
+      "end_time": 21336,
+      "start_time": 21226,
+      "word": "容"
+    },
+    {
+      "confidence": 0.682664,
+      "end_time": 21426,
+      "start_time": 21336,
+      "word": "仍"
+    },
+    {
+      "confidence": 0.90793765,
+      "end_time": 21566,
+      "start_time": 21426,
+      "word": "偏"
+    },
+    {
+      "confidence": 0.87872714,
+      "end_time": 21686,
+      "start_time": 21566,
+      "word": "标"
+    },
+    {
+      "confidence": 0.93868345,
+      "end_time": 21796,
+      "start_time": 21686,
+      "word": "题"
+    },
+    {
+      "confidence": 0.8514391,
+      "end_time": 21926,
+      "start_time": 21796,
+      "word": "化，"
+    },
+    {
+      "confidence": 0.8849011,
+      "end_time": 22106,
+      "start_time": 21996,
+      "word": "不"
+    },
+    {
+      "confidence": 0.86062306,
+      "end_time": 22216,
+      "start_time": 22106,
+      "word": "进"
+    },
+    {
+      "confidence": 0.7232498,
+      "end_time": 22286,
+      "start_time": 22216,
+      "word": "入"
+    },
+    {
+      "confidence": 0.91594696,
+      "end_time": 22416,
+      "start_time": 22286,
+      "word": "具"
+    },
+    {
+      "confidence": 0.9272324,
+      "end_time": 22496,
+      "start_time": 22416,
+      "word": "体"
+    },
+    {
+      "confidence": 0.91499275,
+      "end_time": 22576,
+      "start_time": 22496,
+      "word": "公"
+    },
+    {
+      "confidence": 0.9198465,
+      "end_time": 22859,
+      "start_time": 22576,
+      "word": "式。"
+    }
+  ]
+}

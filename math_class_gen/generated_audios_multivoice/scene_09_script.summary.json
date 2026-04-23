@@ -1,0 +1,15 @@
+{
+  "script_path": "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/math_class_gen/class_materials/scene_09_script.md",
+  "text_mode": "dialogue",
+  "audio_format": "m4a",
+  "audio_duration_ms": 2502,
+  "segments": [
+    {
+      "speaker": "孙悟空",
+      "text": "信息不足不能硬套公式",
+      "voice_type": "zh_male_yangguangqingnian_mars_bigtts",
+      "duration_ms": 2502,
+      "audio_path": "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/math_class_gen/generated_audios_multivoice/scene_09_script_segment_01_孙悟空.mp3"
+    }
+  ]
+}

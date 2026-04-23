@@ -1,0 +1,12 @@
+{
+  "video_path": null,
+  "script_path": "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/math_class_gen/class_materials/scene_12_script.md",
+  "target_duration_ms": 0,
+  "audio_duration_ms": 4712,
+  "delta_ms": 0,
+  "voice_type": "zh_male_qingcang_mars_bigtts",
+  "final_speed_ratio": 1.0,
+  "fit_status": "no_video_alignment",
+  "text_mode": "dialogue",
+  "text": "最后进入斗法练习，看谁能赢得嫦娥仙子青睐！"
+}

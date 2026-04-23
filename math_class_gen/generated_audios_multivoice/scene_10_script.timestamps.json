@@ -1,0 +1,118 @@
+{
+  "words": [
+    {
+      "confidence": 0.7452969,
+      "end_time": 715,
+      "start_time": 515,
+      "word": "还"
+    },
+    {
+      "confidence": 0.8501037,
+      "end_time": 845,
+      "start_time": 715,
+      "word": "请"
+    },
+    {
+      "confidence": 0.8005964,
+      "end_time": 1005,
+      "start_time": 845,
+      "word": "师"
+    },
+    {
+      "confidence": 0.83535236,
+      "end_time": 1115,
+      "start_time": 1005,
+      "word": "傅"
+    },
+    {
+      "confidence": 0.8589569,
+      "end_time": 1235,
+      "start_time": 1115,
+      "word": "赐"
+    },
+    {
+      "confidence": 0.92792964,
+      "end_time": 1616,
+      "start_time": 1235,
+      "word": "教！"
+    },
+    {
+      "confidence": 0.8053405,
+      "end_time": 2151,
+      "start_time": 1951,
+      "word": "利"
+    },
+    {
+      "confidence": 0.87157536,
+      "end_time": 2311,
+      "start_time": 2151,
+      "word": "用"
+    },
+    {
+      "confidence": 0.77228284,
+      "end_time": 2521,
+      "start_time": 2311,
+      "word": "基"
+    },
+    {
+      "confidence": 0.76663625,
+      "end_time": 2691,
+      "start_time": 2521,
+      "word": "底"
+    },
+    {
+      "confidence": 0.83171946,
+      "end_time": 2911,
+      "start_time": 2691,
+      "word": "法"
+    },
+    {
+      "confidence": 0.9280056,
+      "end_time": 3091,
+      "start_time": 2911,
+      "word": "解"
+    },
+    {
+      "confidence": 0.98486745,
+      "end_time": 3231,
+      "start_time": 3091,
+      "word": "决"
+    },
+    {
+      "confidence": 0.9227273,
+      "end_time": 3481,
+      "start_time": 3231,
+      "word": "向"
+    },
+    {
+      "confidence": 0.94449055,
+      "end_time": 3641,
+      "start_time": 3481,
+      "word": "量"
+    },
+    {
+      "confidence": 0.943078,
+      "end_time": 3881,
+      "start_time": 3641,
+      "word": "综"
+    },
+    {
+      "confidence": 0.9554095,
+      "end_time": 4081,
+      "start_time": 3881,
+      "word": "合"
+    },
+    {
+      "confidence": 0.94044524,
+      "end_time": 4221,
+      "start_time": 4081,
+      "word": "问"
+    },
+    {
+      "confidence": 0.989053,
+      "end_time": 4834,
+      "start_time": 4221,
+      "word": "题"
+    }
+  ]
+}

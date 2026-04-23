@@ -1,0 +1,12 @@
+{
+  "code": 10000,
+  "data": {
+    "video_url": "https://v11-aiop.aigc-cloud.com/4648e41d27d09b6caaa080c18adae8a8/69e6094b/video/tos/cn/tos-cn-v-242bcc/81e903a661714aa290e82c32872e5e03/?a=764792&ch=0&cr=0&dr=0&er=0&lr=default&cd=0%7C0%7C0%7C0&br=11594&bt=11594&cs=0&ds=3&ft=GbtG6uO3pyygZmo0PzomjRkVQ9w6x&mime_type=video_mp4&qs=13&rc=ajd3Z2drbzt5OjgzNGczM0Bpajd3Z2drbzt5OjgzNGczM0BvMGFlcWduamZhLS1kXmFzYSNvMGFlcWduamZhLS1kXmFzcw%3D%3D&btag=c0000e00008000&dy_q=1776679734&l=202604201808539F09935BD34E730520AF",
+    "aigc_meta_tagged": false,
+    "status": "done"
+  },
+  "time_elapsed": "164.30689ms",
+  "message": "Success",
+  "request_id": "202604201808539F09935BD34E730520AF",
+  "status": 10000
+}

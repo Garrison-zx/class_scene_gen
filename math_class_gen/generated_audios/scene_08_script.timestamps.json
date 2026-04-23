@@ -1,0 +1,160 @@
+{
+  "words": [
+    {
+      "confidence": 0.8668771,
+      "end_time": 545,
+      "start_time": 345,
+      "word": "信"
+    },
+    {
+      "confidence": 0.94255257,
+      "end_time": 695,
+      "start_time": 545,
+      "word": "息"
+    },
+    {
+      "confidence": 0.9630622,
+      "end_time": 825,
+      "start_time": 695,
+      "word": "不"
+    },
+    {
+      "confidence": 0.88346195,
+      "end_time": 1065,
+      "start_time": 825,
+      "word": "足。"
+    },
+    {
+      "confidence": 0.9702176,
+      "end_time": 1555,
+      "start_time": 1395,
+      "word": "公"
+    },
+    {
+      "confidence": 0.9617905,
+      "end_time": 1745,
+      "start_time": 1555,
+      "word": "式"
+    },
+    {
+      "confidence": 0.9649926,
+      "end_time": 1935,
+      "start_time": 1745,
+      "word": "正"
+    },
+    {
+      "confidence": 0.8808056,
+      "end_time": 2155,
+      "start_time": 1935,
+      "word": "确"
+    },
+    {
+      "confidence": 0.9357383,
+      "end_time": 2755,
+      "start_time": 2585,
+      "word": "但"
+    },
+    {
+      "confidence": 0.96188843,
+      "end_time": 2955,
+      "start_time": 2755,
+      "word": "当"
+    },
+    {
+      "confidence": 0.9604458,
+      "end_time": 3155,
+      "start_time": 2955,
+      "word": "前"
+    },
+    {
+      "confidence": 0.90165526,
+      "end_time": 3325,
+      "start_time": 3155,
+      "word": "题"
+    },
+    {
+      "confidence": 0.9106577,
+      "end_time": 3555,
+      "start_time": 3325,
+      "word": "目"
+    },
+    {
+      "confidence": 0.7840627,
+      "end_time": 3675,
+      "start_time": 3555,
+      "word": "无"
+    },
+    {
+      "confidence": 0.9709164,
+      "end_time": 3895,
+      "start_time": 3675,
+      "word": "法"
+    },
+    {
+      "confidence": 0.8864885,
+      "end_time": 4065,
+      "start_time": 3895,
+      "word": "直"
+    },
+    {
+      "confidence": 0.94519717,
+      "end_time": 4185,
+      "start_time": 4065,
+      "word": "接"
+    },
+    {
+      "confidence": 0.8767401,
+      "end_time": 4415,
+      "start_time": 4185,
+      "word": "套"
+    },
+    {
+      "confidence": 0.98607135,
+      "end_time": 4885,
+      "start_time": 4415,
+      "word": "用。"
+    },
+    {
+      "confidence": 0.9381119,
+      "end_time": 5180,
+      "start_time": 5050,
+      "word": "这"
+    },
+    {
+      "confidence": 0.5351081,
+      "end_time": 5270,
+      "start_time": 5180,
+      "word": "个"
+    },
+    {
+      "confidence": 0.7283573,
+      "end_time": 5440,
+      "start_time": 5270,
+      "word": "解"
+    },
+    {
+      "confidence": 0.89237666,
+      "end_time": 5630,
+      "start_time": 5440,
+      "word": "法"
+    },
+    {
+      "confidence": 0.9269692,
+      "end_time": 5800,
+      "start_time": 5630,
+      "word": "不"
+    },
+    {
+      "confidence": 0.9728774,
+      "end_time": 5950,
+      "start_time": 5800,
+      "word": "完"
+    },
+    {
+      "confidence": 0.911479,
+      "end_time": 6481,
+      "start_time": 5950,
+      "word": "整"
+    }
+  ]
+}

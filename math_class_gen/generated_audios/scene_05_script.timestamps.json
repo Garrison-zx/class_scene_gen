@@ -1,0 +1,70 @@
+{
+  "words": [
+    {
+      "confidence": 0.77736336,
+      "end_time": 525,
+      "start_time": 335,
+      "word": "师"
+    },
+    {
+      "confidence": 0.6543045,
+      "end_time": 775,
+      "start_time": 525,
+      "word": "傅，"
+    },
+    {
+      "confidence": 0.8787532,
+      "end_time": 1345,
+      "start_time": 1165,
+      "word": "快"
+    },
+    {
+      "confidence": 0.9301564,
+      "end_time": 1505,
+      "start_time": 1345,
+      "word": "教"
+    },
+    {
+      "confidence": 0.90903103,
+      "end_time": 1605,
+      "start_time": 1505,
+      "word": "我"
+    },
+    {
+      "confidence": 0.9913455,
+      "end_time": 1705,
+      "start_time": 1605,
+      "word": "们"
+    },
+    {
+      "confidence": 0.9608534,
+      "end_time": 1935,
+      "start_time": 1705,
+      "word": "上"
+    },
+    {
+      "confidence": 0.9562914,
+      "end_time": 2125,
+      "start_time": 1935,
+      "word": "乘"
+    },
+    {
+      "confidence": 0.9269714,
+      "end_time": 2315,
+      "start_time": 2125,
+      "word": "佛"
+    },
+    {
+      "confidence": 0.95837283,
+      "end_time": 2515,
+      "start_time": 2315,
+      "word": "法"
+    },
+    {
+      "confidence": 0.95972896,
+      "end_time": 3066,
+      "start_time": 2515,
+      "word": "吧！"
+    }
+  ]
+}

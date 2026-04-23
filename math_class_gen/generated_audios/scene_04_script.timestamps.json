@@ -1,0 +1,40 @@
+{
+  "words": [
+    {
+      "confidence": 0.8730417,
+      "end_time": 625,
+      "start_time": 395,
+      "word": "又"
+    },
+    {
+      "confidence": 0.9023445,
+      "end_time": 875,
+      "start_time": 625,
+      "word": "好"
+    },
+    {
+      "confidence": 0.8657727,
+      "end_time": 1105,
+      "start_time": 875,
+      "word": "气"
+    },
+    {
+      "confidence": 0.9100757,
+      "end_time": 1325,
+      "start_time": 1105,
+      "word": "又"
+    },
+    {
+      "confidence": 0.9277772,
+      "end_time": 1535,
+      "start_time": 1325,
+      "word": "好"
+    },
+    {
+      "confidence": 0.94784534,
+      "end_time": 2197,
+      "start_time": 1535,
+      "word": "笑"
+    }
+  ]
+}

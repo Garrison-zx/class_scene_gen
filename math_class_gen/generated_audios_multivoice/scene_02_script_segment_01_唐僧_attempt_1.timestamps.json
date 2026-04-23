@@ -1,0 +1,160 @@
+{
+  "words": [
+    {
+      "confidence": 0.9098947,
+      "end_time": 615,
+      "start_time": 355,
+      "word": "徒"
+    },
+    {
+      "confidence": 0.7286734,
+      "end_time": 745,
+      "start_time": 615,
+      "word": "儿"
+    },
+    {
+      "confidence": 0.8461928,
+      "end_time": 1005,
+      "start_time": 745,
+      "word": "们，"
+    },
+    {
+      "confidence": 0.83508545,
+      "end_time": 1545,
+      "start_time": 1375,
+      "word": "为"
+    },
+    {
+      "confidence": 0.76622516,
+      "end_time": 1765,
+      "start_time": 1545,
+      "word": "师"
+    },
+    {
+      "confidence": 0.86627924,
+      "end_time": 1935,
+      "start_time": 1765,
+      "word": "今"
+    },
+    {
+      "confidence": 0.97840077,
+      "end_time": 2105,
+      "start_time": 1935,
+      "word": "天"
+    },
+    {
+      "confidence": 0.948028,
+      "end_time": 2305,
+      "start_time": 2105,
+      "word": "传"
+    },
+    {
+      "confidence": 0.8676898,
+      "end_time": 2495,
+      "start_time": 2305,
+      "word": "授"
+    },
+    {
+      "confidence": 0.9417428,
+      "end_time": 2785,
+      "start_time": 2495,
+      "word": "新"
+    },
+    {
+      "confidence": 0.9657953,
+      "end_time": 2885,
+      "start_time": 2785,
+      "word": "的"
+    },
+    {
+      "confidence": 0.82538044,
+      "end_time": 3095,
+      "start_time": 2885,
+      "word": "佛"
+    },
+    {
+      "confidence": 0.9710941,
+      "end_time": 3385,
+      "start_time": 3095,
+      "word": "法，"
+    },
+    {
+      "confidence": 0.9213906,
+      "end_time": 3955,
+      "start_time": 3775,
+      "word": "让"
+    },
+    {
+      "confidence": 0.9728274,
+      "end_time": 4075,
+      "start_time": 3955,
+      "word": "你"
+    },
+    {
+      "confidence": 0.9814971,
+      "end_time": 4165,
+      "start_time": 4075,
+      "word": "们"
+    },
+    {
+      "confidence": 0.97991514,
+      "end_time": 4305,
+      "start_time": 4165,
+      "word": "在"
+    },
+    {
+      "confidence": 0.9379857,
+      "end_time": 4595,
+      "start_time": 4305,
+      "word": "向"
+    },
+    {
+      "confidence": 0.95048696,
+      "end_time": 4785,
+      "start_time": 4595,
+      "word": "量"
+    },
+    {
+      "confidence": 0.9593125,
+      "end_time": 4995,
+      "start_time": 4785,
+      "word": "辩"
+    },
+    {
+      "confidence": 0.9103866,
+      "end_time": 5185,
+      "start_time": 4995,
+      "word": "法"
+    },
+    {
+      "confidence": 0.9471644,
+      "end_time": 5385,
+      "start_time": 5185,
+      "word": "中"
+    },
+    {
+      "confidence": 0.94016427,
+      "end_time": 5685,
+      "start_time": 5385,
+      "word": "大"
+    },
+    {
+      "confidence": 0.93203735,
+      "end_time": 5935,
+      "start_time": 5685,
+      "word": "杀"
+    },
+    {
+      "confidence": 0.92976934,
+      "end_time": 6135,
+      "start_time": 5935,
+      "word": "四"
+    },
+    {
+      "confidence": 0.8912452,
+      "end_time": 6701,
+      "start_time": 6135,
+      "word": "方！"
+    }
+  ]
+}

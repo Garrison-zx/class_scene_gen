@@ -1,0 +1,12 @@
+{
+  "video_path": null,
+  "script_path": "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/math_class_gen/class_materials/scene_10_script.md",
+  "target_duration_ms": 0,
+  "audio_duration_ms": 4974,
+  "delta_ms": 0,
+  "voice_type": "zh_male_qingcang_mars_bigtts",
+  "final_speed_ratio": 1.0,
+  "fit_status": "no_video_alignment",
+  "text_mode": "dialogue",
+  "text": "还请师傅赐教！\n利用基底法解决向量综合问题"
+}

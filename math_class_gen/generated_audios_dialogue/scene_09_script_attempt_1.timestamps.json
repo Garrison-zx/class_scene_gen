@@ -1,0 +1,64 @@
+{
+  "words": [
+    {
+      "confidence": 0.729285,
+      "end_time": 585,
+      "start_time": 335,
+      "word": "信"
+    },
+    {
+      "confidence": 0.84484714,
+      "end_time": 785,
+      "start_time": 585,
+      "word": "息"
+    },
+    {
+      "confidence": 0.9011471,
+      "end_time": 965,
+      "start_time": 785,
+      "word": "不"
+    },
+    {
+      "confidence": 0.89161575,
+      "end_time": 1265,
+      "start_time": 965,
+      "word": "足"
+    },
+    {
+      "confidence": 0.9530225,
+      "end_time": 1625,
+      "start_time": 1515,
+      "word": "不"
+    },
+    {
+      "confidence": 0.9149794,
+      "end_time": 1855,
+      "start_time": 1625,
+      "word": "能"
+    },
+    {
+      "confidence": 0.77794266,
+      "end_time": 2005,
+      "start_time": 1855,
+      "word": "硬"
+    },
+    {
+      "confidence": 0.81735337,
+      "end_time": 2235,
+      "start_time": 2005,
+      "word": "套"
+    },
+    {
+      "confidence": 0.91957587,
+      "end_time": 2425,
+      "start_time": 2235,
+      "word": "公"
+    },
+    {
+      "confidence": 0.98350626,
+      "end_time": 3036,
+      "start_time": 2425,
+      "word": "式"
+    }
+  ]
+}

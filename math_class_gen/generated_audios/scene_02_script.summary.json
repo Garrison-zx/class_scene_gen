@@ -1,0 +1,12 @@
+{
+  "video_path": null,
+  "script_path": "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/math_class_gen/class_materials/scene_02_script.md",
+  "target_duration_ms": 0,
+  "audio_duration_ms": 6687,
+  "delta_ms": 0,
+  "voice_type": "zh_male_qingcang_mars_bigtts",
+  "final_speed_ratio": 1.0,
+  "fit_status": "no_video_alignment",
+  "text_mode": "dialogue",
+  "text": "徒儿们，为师今天传授新的佛法，让你们在向量辩法中大杀四方！"
+}

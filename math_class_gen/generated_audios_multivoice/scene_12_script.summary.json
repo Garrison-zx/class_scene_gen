@@ -1,0 +1,15 @@
+{
+  "script_path": "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/math_class_gen/class_materials/scene_12_script.md",
+  "text_mode": "dialogue",
+  "audio_format": "m4a",
+  "audio_duration_ms": 4707,
+  "segments": [
+    {
+      "speaker": "唐僧",
+      "text": "最后进入斗法练习，看谁能赢得嫦娥仙子青睐！",
+      "voice_type": "zh_male_qingcang_mars_bigtts",
+      "duration_ms": 4707,
+      "audio_path": "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/math_class_gen/generated_audios_multivoice/scene_12_script_segment_01_唐僧.mp3"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "words": [
+    {
+      "confidence": 0.7968649,
+      "end_time": 565,
+      "start_time": 355,
+      "word": "徒"
+    },
+    {
+      "confidence": 0.64936095,
+      "end_time": 655,
+      "start_time": 565,
+      "word": "儿"
+    },
+    {
+      "confidence": 0.82154197,
+      "end_time": 915,
+      "start_time": 655,
+      "word": "们，"
+    },
+    {
+      "confidence": 0.96196735,
+      "end_time": 1555,
+      "start_time": 1415,
+      "word": "你"
+    },
+    {
+      "confidence": 0.98091364,
+      "end_time": 1645,
+      "start_time": 1555,
+      "word": "们"
+    },
+    {
+      "confidence": 0.9590869,
+      "end_time": 1885,
+      "start_time": 1645,
+      "word": "先"
+    },
+    {
+      "confidence": 0.9631365,
+      "end_time": 2125,
+      "start_time": 1885,
+      "word": "看"
+    },
+    {
+      "confidence": 0.750474,
+      "end_time": 2345,
+      "start_time": 2125,
+      "word": "此"
+    },
+    {
+      "confidence": 0.89599013,
+      "end_time": 2505,
+      "start_time": 2345,
+      "word": "题"
+    },
+    {
+      "confidence": 0.97310007,
+      "end_time": 2765,
+      "start_time": 2505,
+      "word": "何"
+    },
+    {
+      "confidence": 0.87500876,
+      "end_time": 3357,
+      "start_time": 2765,
+      "word": "解？"
+    }
+  ]
+}

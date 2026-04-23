@@ -1,0 +1,9 @@
+{
+  "video_path": "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/math_class_gen/generated_videos/transition_01_02.mp4",
+  "script_path": "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/math_class_gen/class_materials/scene_02_script.md",
+  "target_duration_ms": 5042,
+  "audio_duration_ms": 22859,
+  "delta_ms": 17817,
+  "voice_type": "zh_male_qingcang_mars_bigtts",
+  "final_speed_ratio": 3.0
+}

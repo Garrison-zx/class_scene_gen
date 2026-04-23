@@ -1,0 +1,118 @@
+{
+  "words": [
+    {
+      "confidence": 0.90270144,
+      "end_time": 575,
+      "start_time": 325,
+      "word": "最"
+    },
+    {
+      "confidence": 0.9699511,
+      "end_time": 755,
+      "start_time": 575,
+      "word": "后"
+    },
+    {
+      "confidence": 0.9616336,
+      "end_time": 905,
+      "start_time": 755,
+      "word": "进"
+    },
+    {
+      "confidence": 0.911291,
+      "end_time": 1025,
+      "start_time": 905,
+      "word": "入"
+    },
+    {
+      "confidence": 0.95147455,
+      "end_time": 1215,
+      "start_time": 1025,
+      "word": "斗"
+    },
+    {
+      "confidence": 0.9312151,
+      "end_time": 1445,
+      "start_time": 1215,
+      "word": "法"
+    },
+    {
+      "confidence": 0.9201796,
+      "end_time": 1605,
+      "start_time": 1445,
+      "word": "练"
+    },
+    {
+      "confidence": 0.96961904,
+      "end_time": 2015,
+      "start_time": 1605,
+      "word": "习，"
+    },
+    {
+      "confidence": 0.9378874,
+      "end_time": 2565,
+      "start_time": 2315,
+      "word": "看"
+    },
+    {
+      "confidence": 0.9498376,
+      "end_time": 2795,
+      "start_time": 2565,
+      "word": "谁"
+    },
+    {
+      "confidence": 0.96291953,
+      "end_time": 2985,
+      "start_time": 2795,
+      "word": "能"
+    },
+    {
+      "confidence": 0.9323969,
+      "end_time": 3155,
+      "start_time": 2985,
+      "word": "赢"
+    },
+    {
+      "confidence": 0.8828581,
+      "end_time": 3295,
+      "start_time": 3155,
+      "word": "得"
+    },
+    {
+      "confidence": 0.9582175,
+      "end_time": 3555,
+      "start_time": 3295,
+      "word": "嫦"
+    },
+    {
+      "confidence": 0.8899838,
+      "end_time": 3675,
+      "start_time": 3555,
+      "word": "娥"
+    },
+    {
+      "confidence": 0.9322413,
+      "end_time": 3865,
+      "start_time": 3675,
+      "word": "仙"
+    },
+    {
+      "confidence": 0.85713816,
+      "end_time": 3995,
+      "start_time": 3865,
+      "word": "子"
+    },
+    {
+      "confidence": 0.9072662,
+      "end_time": 4225,
+      "start_time": 3995,
+      "word": "青"
+    },
+    {
+      "confidence": 0.6930035,
+      "end_time": 4707,
+      "start_time": 4225,
+      "word": "睐！"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "script_path": "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/math_class_gen/class_materials/scene_06_script.md",
+  "text_mode": "dialogue",
+  "audio_format": "m4a",
+  "audio_duration_ms": 3347,
+  "segments": [
+    {
+      "speaker": "唐僧",
+      "text": "徒儿们，你们先看此题何解？",
+      "voice_type": "zh_male_qingcang_mars_bigtts",
+      "duration_ms": 3347,
+      "audio_path": "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/math_class_gen/generated_audios_multivoice/scene_06_script_segment_01_唐僧.mp3"
+    }
+  ]
+}
