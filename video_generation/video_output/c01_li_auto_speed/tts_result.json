@@ -1,0 +1,48 @@
+{
+  "provider": "doubao",
+  "voice_type": "zh_male_qingcang_mars_bigtts",
+  "audio_count": 8,
+  "total_duration_ms": 89021,
+  "items": [
+    {
+      "scene_id": "scene_01",
+      "audio_path": "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/video_generation/video_output/c01_li_auto_speed/public/audio/scene_01.mp3",
+      "duration_ms": 9231
+    },
+    {
+      "scene_id": "scene_02",
+      "audio_path": "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/video_generation/video_output/c01_li_auto_speed/public/audio/scene_02.mp3",
+      "duration_ms": 10790
+    },
+    {
+      "scene_id": "scene_03",
+      "audio_path": "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/video_generation/video_output/c01_li_auto_speed/public/audio/scene_03.mp3",
+      "duration_ms": 8417
+    },
+    {
+      "scene_id": "scene_04",
+      "audio_path": "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/video_generation/video_output/c01_li_auto_speed/public/audio/scene_04.mp3",
+      "duration_ms": 11795
+    },
+    {
+      "scene_id": "scene_05",
+      "audio_path": "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/video_generation/video_output/c01_li_auto_speed/public/audio/scene_05.mp3",
+      "duration_ms": 14538
+    },
+    {
+      "scene_id": "scene_06",
+      "audio_path": "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/video_generation/video_output/c01_li_auto_speed/public/audio/scene_06.mp3",
+      "duration_ms": 6194
+    },
+    {
+      "scene_id": "scene_07",
+      "audio_path": "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/video_generation/video_output/c01_li_auto_speed/public/audio/scene_07.mp3",
+      "duration_ms": 13509
+    },
+    {
+      "scene_id": "scene_08",
+      "audio_path": "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/video_generation/video_output/c01_li_auto_speed/public/audio/scene_08.mp3",
+      "duration_ms": 14547
+    }
+  ]
+}

@@ -5,6 +5,9 @@ video_generation/.cache/
 video_generation/.venv/
 video_generation/.env
 video_generation/quick_validate*.svg
+video_generation/video_output/c01_li_auto_speed/.cache/
+video_generation/video_output/c01_li_auto_speed/.remotion/
+
 
 # Local environment
 .env

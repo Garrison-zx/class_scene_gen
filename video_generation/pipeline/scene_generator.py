@@ -16,6 +16,7 @@ import re
 from pathlib import Path
 from typing import Any
 
+from .llm_client import call_llm_text
 from .types import (
     PipelineConfig,
     SceneCode,
@@ -106,10 +107,32 @@ def _extract_tsx_code(response: str) -> str:
 
     # 策略 3: 整个响应看起来就是代码
     stripped = response.strip()
-    if stripped.startswith("import") or stripped.startswith("//"):
+    if (stripped.startswith("import") or stripped.startswith("//")) and "export" in stripped:
         return stripped
 
     raise ValueError(f"无法从 LLM 响应中提取 TSX 代码:\n{response[:500]}")
+
+
+def _is_likely_complete_tsx(code: str) -> bool:
+    """粗粒度校验，过滤明显截断代码。"""
+    stripped = code.strip()
+    if not stripped:
+        return False
+    if "export" not in stripped:
+        return False
+
+    # 明显未结束的尾部模式
+    bad_suffixes = ("=", "=>", "(", "{", "[", "<", ",", ":", ".", "from")
+    if stripped.endswith(bad_suffixes):
+        return False
+
+    # 基础括号配平检查（不追求语法完整，只过滤明显半截）
+    pairs = [("(", ")"), ("{", "}"), ("[", "]")]
+    for left, right in pairs:
+        if stripped.count(left) != stripped.count(right):
+            return False
+
+    return True
 
 
 def _make_component_name(outline: VideoOutline) -> str:
@@ -126,29 +149,17 @@ def _call_llm(
     system_prompt: str,
     user_prompt: str,
     config: PipelineConfig,
+    *,
+    max_tokens: int,
 ) -> str:
     """调用 LLM API。"""
-    try:
-        from openai import OpenAI
-    except ImportError:
-        raise ImportError("请安装 openai: pip install openai")
-
-    client = OpenAI(
-        api_key=config.llm_api_key,
-        base_url=config.llm_base_url or None,
+    return call_llm_text(
+        system_prompt=system_prompt,
+        user_prompt=user_prompt,
+        config=config,
+        temperature=0.4,
+        max_tokens=max_tokens,
     )
-
-    response = client.chat.completions.create(
-        model=config.llm_model,
-        messages=[
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_prompt},
-        ],
-        temperature=0.4,      # 代码生成用较低温度
-        max_tokens=16384,      # 组件代码可能较长
-    )
-
-    return response.choices[0].message.content or ""
 
 
 # ────────────────────────────────────────────
@@ -179,8 +190,42 @@ def generate_scene_code(
         logger.debug(f"System prompt (前 500 字):\n{system_prompt[:500]}...")
         logger.debug(f"User prompt:\n{user_prompt[:500]}...")
 
-    raw_response = _call_llm(system_prompt, user_prompt, config)
-    code = _extract_tsx_code(raw_response)
+    # 避免截断：分级提升 max_tokens，且必须提取到“看起来完整”的 TSX。
+    token_candidates = [16384, 32768, 65536]
+    last_response = ""
+    last_error: Exception | None = None
+    code = ""
+
+    for idx, max_tokens in enumerate(token_candidates, start=1):
+        raw_response = _call_llm(
+            system_prompt,
+            user_prompt,
+            config,
+            max_tokens=max_tokens,
+        )
+        last_response = raw_response
+        try:
+            candidate = _extract_tsx_code(raw_response)
+            if not _is_likely_complete_tsx(candidate):
+                raise ValueError("提取到的 TSX 疑似截断（完整性检查未通过）")
+            code = candidate
+            break
+        except Exception as exc:
+            last_error = exc
+            logger.warning(
+                "Stage 2 代码提取失败，疑似截断。scene=%s attempt=%s/%s max_tokens=%s error=%s",
+                outline.id,
+                idx,
+                len(token_candidates),
+                max_tokens,
+                exc,
+            )
+
+    if not code:
+        raise ValueError(
+            f"Stage 2 连续重试后仍未生成可用 TSX。scene={outline.id}; "
+            f"last_error={last_error}; response_head={last_response[:500]!r}"
+        )
 
     duration_frames = int(outline.duration_seconds * config.style.fps)
 

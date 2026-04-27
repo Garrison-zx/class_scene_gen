@@ -11,6 +11,8 @@ from __future__ import annotations
 import argparse
 import json
 import logging
+import math
+import os
 import sys
 from pathlib import Path
 from typing import Optional
@@ -23,6 +25,7 @@ from .assembler import (
     generate_root_tsx,
     render_video,
     save_outline_json,
+    synthesize_narration_audio,
 )
 
 logger = logging.getLogger(__name__)
@@ -91,27 +94,86 @@ def run_pipeline(
         "files": [str(p) for p in scene_paths],
     }
 
-    # ── Stage 3: 组装 ──
+    # ── Stage 3: TTS（可选） ──
+    scene_audio_map: dict[str, str] = {}
+    if config.enable_tts:
+        logger.info("")
+        logger.info("=" * 60)
+        logger.info("🔊 Stage 3: TTS 音频生成 (Doubao)")
+        logger.info("=" * 60)
+        try:
+            scene_audio_map, tts_summary = synthesize_narration_audio(
+                outline_result.outlines,
+                config,
+                output_dir,
+            )
+
+            # 用真实音频时长回写场景帧长，避免音频被 Sequence 截断
+            duration_ms_map: dict[str, int] = {}
+            for item in tts_summary.get("items", []):
+                try:
+                    scene_id = str(item.get("scene_id", "")).strip()
+                    duration_ms = int(item.get("duration_ms", 0))
+                except Exception:  # noqa: BLE001
+                    continue
+                if scene_id and duration_ms > 0:
+                    duration_ms_map[scene_id] = duration_ms
+
+            if duration_ms_map:
+                fps = int(config.style.fps)
+                padding_ms = max(0, int(config.tts_padding_ms))
+                alignment_items: list[dict[str, int]] = []
+                for scene in scene_codes:
+                    audio_ms = duration_ms_map.get(scene.scene_id, 0)
+                    if audio_ms <= 0:
+                        continue
+                    aligned_frames = math.ceil((audio_ms + padding_ms) / 1000 * fps)
+                    old_frames = int(scene.duration_frames)
+                    new_frames = max(old_frames, aligned_frames)
+                    if new_frames != old_frames:
+                        scene.duration_frames = new_frames
+                    alignment_items.append(
+                        {
+                            "scene_id": scene.scene_id,
+                            "audio_ms": audio_ms,
+                            "old_frames": old_frames,
+                            "new_frames": new_frames,
+                        }
+                    )
+
+                tts_summary["padding_ms"] = padding_ms
+                tts_summary["duration_alignment"] = alignment_items
+            result["stages"]["tts"] = tts_summary
+        except Exception as e:
+            logger.error(f"TTS 失败: {e}")
+            result["stages"]["tts"] = {
+                "error": str(e),
+            }
+    else:
+        logger.info("\n⏭️  跳过 TTS（使用 --enable-tts 启用）")
+
+    # ── Stage 4: 组装 ──
     logger.info("")
     logger.info("=" * 60)
-    logger.info("🔧 Stage 3: 组装")
+    logger.info("🔧 Stage 4: 组装")
     logger.info("=" * 60)
 
     root_path = generate_root_tsx(
         scene_codes,
         outline_result.outlines,
         fps=config.style.fps,
+        scene_audio_map=scene_audio_map,
         output_dir=output_dir,
     )
     result["stages"]["assemble"] = {
         "root_tsx": str(root_path),
     }
 
-    # ── Stage 3.5: 渲染（可选） ──
+    # ── Stage 4.5: 渲染（可选） ──
     if not skip_render:
         logger.info("")
         logger.info("=" * 60)
-        logger.info("🎥 Stage 3.5: Remotion 渲染")
+        logger.info("🎥 Stage 4.5: Remotion 渲染")
         logger.info("=" * 60)
 
         try:
@@ -190,6 +252,35 @@ def main():
     parser.add_argument("--llm-api-key", default="", help="LLM API Key")
     parser.add_argument("--llm-base-url", default="", help="LLM Base URL")
 
+    # TTS 参数
+    parser.add_argument("--enable-tts", action="store_true", help="启用 Doubao TTS")
+    parser.add_argument("--tts-provider", default="doubao", help="TTS provider（默认 doubao）")
+    parser.add_argument(
+        "--tts-url",
+        default=(
+            "http://api-hub.inner.chj.cloud/"
+            "bcs-apihub-tools-proxy-service/tool/v1/volcengine/"
+            "doubao-llm-speech-synthesis-http"
+        ),
+        help="Doubao TTS URL",
+    )
+    parser.add_argument(
+        "--tts-gw-token",
+        default=os.getenv("X_CHJ_GWTOKEN", "") or os.getenv("JIMENG_SECRET", ""),
+        help="Doubao TTS 网关 token（默认读取 X_CHJ_GWTOKEN/JIMENG_SECRET）",
+    )
+    parser.add_argument(
+        "--tts-voice-type",
+        default="zh_male_qingcang_mars_bigtts",
+        help="Doubao voice_type",
+    )
+    parser.add_argument(
+        "--tts-padding-ms",
+        type=int,
+        default=300,
+        help="TTS 对齐补偿毫秒（默认 300）",
+    )
+
     # 输出
     parser.add_argument(
         "--output-dir", type=Path,
@@ -231,6 +322,12 @@ def main():
         llm_model=args.llm_model,
         llm_api_key=args.llm_api_key,
         llm_base_url=args.llm_base_url,
+        enable_tts=args.enable_tts,
+        tts_provider=args.tts_provider,
+        tts_url=args.tts_url,
+        tts_gw_token=args.tts_gw_token,
+        tts_voice_type=args.tts_voice_type,
+        tts_padding_ms=args.tts_padding_ms,
         verbose=args.verbose,
     )
 

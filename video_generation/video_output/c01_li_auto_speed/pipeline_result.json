@@ -1,0 +1,32 @@
+{
+  "stages": {
+    "outline": {
+      "scene_count": 8,
+      "total_duration": 85.0,
+      "output": "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/video_generation/video_output/c01_li_auto_speed/outline.json"
+    },
+    "scene_code": {
+      "scene_count": 8,
+      "files": [
+        "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/video_generation/video_output/c01_li_auto_speed/generated/Scene01Title.tsx",
+        "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/video_generation/video_output/c01_li_auto_speed/generated/Scene02Content.tsx",
+        "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/video_generation/video_output/c01_li_auto_speed/generated/Scene03Transition.tsx",
+        "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/video_generation/video_output/c01_li_auto_speed/generated/Scene04Diagram.tsx",
+        "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/video_generation/video_output/c01_li_auto_speed/generated/Scene05Content.tsx",
+        "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/video_generation/video_output/c01_li_auto_speed/generated/Scene06Transition.tsx",
+        "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/video_generation/video_output/c01_li_auto_speed/generated/Scene07Diagram.tsx",
+        "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/video_generation/video_output/c01_li_auto_speed/generated/Scene08Summary.tsx"
+      ]
+    },
+    "tts": {
+      "error": "缺少 Doubao TTS 网关 token，请传 --tts-gw-token 或设置环境变量 X_CHJ_GWTOKEN/JIMENG_SECRET"
+    },
+    "assemble": {
+      "root_tsx": "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/video_generation/video_output/c01_li_auto_speed/Root.tsx"
+    },
+    "render": {
+      "video": "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/video_generation/video_output/c01_li_auto_speed/output.mp4"
+    }
+  },
+  "output_dir": "/Users/gaozhixing/Desktop/code/openmaic/class_scene_gen/video_generation/video_output/c01_li_auto_speed"
+}

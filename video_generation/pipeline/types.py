@@ -189,7 +189,19 @@ class PipelineConfig:
     style: StyleConfig = field(default_factory=StyleConfig)
     output_dir: Path = Path("./output")
     enable_tts: bool = False
-    tts_provider: str = "edge-tts"          # edge-tts | volcengine
+    tts_provider: str = "doubao"            # doubao | volcengine
+    tts_url: str = (
+        "http://api-hub.inner.chj.cloud/"
+        "bcs-apihub-tools-proxy-service/tool/v1/volcengine/"
+        "doubao-llm-speech-synthesis-http"
+    )
+    tts_gw_token: str = ""
+    tts_voice_type: str = "zh_male_qingcang_mars_bigtts"
+    tts_speed_ratio: float = 1.0
+    tts_loudness_ratio: float = 1.0
+    tts_silence_duration: int = 10
+    tts_timeout: float = 120.0
+    tts_padding_ms: int = 300
     llm_provider: str = "openai"            # openai | volcengine | local
     llm_model: str = "gpt-4o"
     llm_api_key: str = ""

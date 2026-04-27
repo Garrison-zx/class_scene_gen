@@ -1,0 +1,242 @@
+{
+  "language_directive": "使用中文讲解，编程术语保持英文原文，首次出现时括号标注中文含义。",
+  "total_duration": 130.0,
+  "outlines": [
+    {
+      "id": "scene_01",
+      "type": "title",
+      "title": "Python 装饰器核心解析",
+      "narration": "大家好，今天我们来攻克 Python 中非常核心且优雅的特性——装饰器。我们将从原理出发，一路打通到高阶实战。",
+      "duration_seconds": 8.0,
+      "order": 1,
+      "visual_elements": [
+        "大标题：Python 装饰器核心解析",
+        "副标题：从本质到高阶用法",
+        "背景：科技暗色风格深蓝渐变",
+        "点缀：Python 官方 Logo 水印"
+      ],
+      "animation_hints": [
+        "大标题从屏幕中央放大淡入",
+        "副标题延迟 0.5 秒从下方平滑滑入",
+        "背景呈现缓慢的呼吸渐变效果"
+      ],
+      "key_points": [],
+      "code_snippet": null,
+      "code_language": null
+    },
+    {
+      "id": "scene_02",
+      "type": "content",
+      "title": "什么是装饰器？",
+      "narration": "简单来说，装饰器是一种设计模式。在 Python 中，它本质上是一个高阶函数。它可以在不修改原函数代码的前提下，给函数动态地增加额外的功能。",
+      "duration_seconds": 15.0,
+      "order": 2,
+      "visual_elements": [
+        "标题：什么是装饰器？",
+        "核心要点列表",
+        "一个生动的图标：一个齿轮（代表原函数）被加上了发光的护盾（代表装饰器增加的功能）"
+      ],
+      "animation_hints": [
+        "标题从左侧快速滑入",
+        "要点列表逐条淡入，间隔 0.8 秒",
+        "齿轮和护盾图标在右侧组合并旋转发光"
+      ],
+      "key_points": [
+        "本质：高阶函数",
+        "机制：接收函数，返回新函数",
+        "优势：不修改原函数代码，实现功能增强"
+      ],
+      "code_snippet": null,
+      "code_language": null
+    },
+    {
+      "id": "scene_03",
+      "type": "diagram",
+      "title": "装饰器工作原理",
+      "narration": "我们可以把这个过程想象成一条流水线。原函数进入装饰器，装饰器在它外面包裹上一层新的逻辑，最后输出一个增强版的新函数。",
+      "duration_seconds": 12.0,
+      "order": 3,
+      "visual_elements": [
+        "标题：工作流程图",
+        "流程图节点 1：原函数 func (方块)",
+        "流程图节点 2：装饰器 decorator (大方框包裹)",
+        "流程图节点 3：增强函数 wrapper (发光的方块)",
+        "指向箭头"
+      ],
+      "animation_hints": [
+        "节点 1 首先出现",
+        "箭头向右伸展，节点 2 出现并将节点 1 吞入",
+        "节点 2 经过处理后，箭头向右伸展，生成闪烁的节点 3"
+      ],
+      "key_points": [
+        "输入：func",
+        "处理：wrapper 包装",
+        "输出：增强的 func"
+      ],
+      "code_snippet": null,
+      "code_language": null
+    },
+    {
+      "id": "scene_04",
+      "type": "transition",
+      "title": "基础语法与实战",
+      "narration": "理解了原理，我们来看看在实际的代码中，装饰器到底是怎么写的，以及大名鼎鼎的 @ 语法糖怎么用。",
+      "duration_seconds": 8.0,
+      "order": 4,
+      "visual_elements": [
+        "居中文字：基础语法与 @ 语法糖",
+        "背景：代码字符雨隐约落下"
+      ],
+      "animation_hints": [
+        "文字从屏幕中心淡入并轻微放大",
+        "停留 3 秒后向两侧散开消失"
+      ],
+      "key_points": [],
+      "code_snippet": null,
+      "code_language": null
+    },
+    {
+      "id": "scene_05",
+      "type": "code",
+      "title": "基本语法演示",
+      "narration": "我们定义一个 my_decorator。内部的 wrapper 函数会在执行原函数前后打印提示。使用 @ 符号加装饰器名字，放在目标函数上方，就大功告成了。",
+      "duration_seconds": 18.0,
+      "order": 5,
+      "visual_elements": [
+        "标题：基本语法",
+        "代码块：包含 my_decorator 和 say_hello 的定义"
+      ],
+      "animation_hints": [
+        "代码按逻辑块逐段出现",
+        "讲到 wrapper 时，wrapper 函数体高亮",
+        "讲到 @my_decorator 时，该行闪烁 2 次并保持高亮"
+      ],
+      "key_points": [
+        "外层接收 func",
+        "内层 wrapper 接收任意参数",
+        "@ 语法糖简化调用"
+      ],
+      "code_snippet": "def my_decorator(func):\n    def wrapper(*args, **kwargs):\n        print(\"调用前\")\n        result = func(*args, **kwargs)\n        print(\"调用后\")\n        return result\n    return wrapper\n\n@my_decorator\ndef say_hello(name):\n    print(f\"Hello, {name}!\")",
+      "code_language": "python"
+    },
+    {
+      "id": "scene_06",
+      "type": "content",
+      "title": "实用装饰器场景",
+      "narration": "掌握了这个结构，我们就能实现很多通用功能。比如给函数测速的计时器、记录运行状态的日志装饰器，或者用来加速查询的缓存装饰器。",
+      "duration_seconds": 14.0,
+      "order": 6,
+      "visual_elements": [
+        "标题：典型应用场景",
+        "三个卡片并排排列：",
+        "卡片1：计时器 (Timer) + 秒表图标",
+        "卡片2：日志 (Logger) + 文本图标",
+        "卡片3：缓存 (Cache) + 数据库图标"
+      ],
+      "animation_hints": [
+        "三个卡片依次从下方弹起",
+        "讲到对应场景时，该卡片稍微放大并改变边框颜色"
+      ],
+      "key_points": [
+        "计时器装饰器",
+        "日志装饰器",
+        "缓存装饰器"
+      ],
+      "code_snippet": null,
+      "code_language": null
+    },
+    {
+      "id": "scene_07",
+      "type": "transition",
+      "title": "进阶：带参数的装饰器",
+      "narration": "有时候，我们需要更灵活的控制。比如，我想让一个函数重复执行指定的次数，这就需要用到带参数的装饰器了。",
+      "duration_seconds": 8.0,
+      "order": 7,
+      "visual_elements": [
+        "居中文字：进阶：带参数的装饰器",
+        "一个带齿轮和调节旋钮的图标"
+      ],
+      "animation_hints": [
+        "文字淡入",
+        "图标旋钮转动，象征参数调节"
+      ],
+      "key_points": [],
+      "code_snippet": null,
+      "code_language": null
+    },
+    {
+      "id": "scene_08",
+      "type": "code",
+      "title": "带参数的装饰器",
+      "narration": "带参数的装饰器需要三层嵌套。最外层 repeat 接收参数 n，中间层接收目标函数，最内层 wrapper 执行具体的重复逻辑。调用时传入参数 3 即可。",
+      "duration_seconds": 20.0,
+      "order": 8,
+      "visual_elements": [
+        "标题：带参数的装饰器",
+        "代码块：repeat 装饰器的三层嵌套代码"
+      ],
+      "animation_hints": [
+        "代码逐层出现：先出 repeat，再出 decorator，最后出 wrapper",
+        "高亮 `def repeat(n):` 行",
+        "高亮 `@repeat(3)` 行"
+      ],
+      "key_points": [
+        "三层函数嵌套",
+        "外层接收装饰器参数",
+        "利用闭包记住参数"
+      ],
+      "code_snippet": "def repeat(n):\n    def decorator(func):\n        def wrapper(*args, **kwargs):\n            for _ in range(n):\n                result = func(*args, **kwargs)\n            return result\n        return wrapper\n    return decorator\n\n@repeat(3)\ndef greet():\n    print(\"Hello!\")",
+      "code_language": "python"
+    },
+    {
+      "id": "scene_09",
+      "type": "content",
+      "title": "守护元信息：functools.wraps",
+      "narration": "最后要注意一个坑：装饰器会把原函数的名字和文档注释给覆盖掉。为了解决这个问题，我们需要在 wrapper 函数上使用 Python 内置的 wraps 装饰器，把元信息保留下来。",
+      "duration_seconds": 15.0,
+      "order": 9,
+      "visual_elements": [
+        "标题：functools.wraps",
+        "对比图示：",
+        "左侧：未使用 wraps -> 函数名变成 'wrapper'",
+        "右侧：使用 @wraps(func) -> 保留原函数名 '__name__'",
+        "一个盾牌图标保护着函数属性"
+      ],
+      "animation_hints": [
+        "左侧错误情况先出现，并打上红色的叉",
+        "右侧正确情况滑入，盾牌图标亮起，打上绿色的勾"
+      ],
+      "key_points": [
+        "问题：丢失 __name__ 和 __doc__",
+        "解决：导入 functools.wraps",
+        "用法：在 wrapper 上添加 @wraps(func)"
+      ],
+      "code_snippet": null,
+      "code_language": null
+    },
+    {
+      "id": "scene_10",
+      "type": "summary",
+      "title": "课程总结",
+      "narration": "今天我们深入理解了装饰器的高阶函数本质，掌握了基础和带参数的写法，并学会了用 wraps 保留元信息。希望大家在实际项目中多加练习，我们下期再见！",
+      "duration_seconds": 12.0,
+      "order": 10,
+      "visual_elements": [
+        "大标题：课程总结",
+        "总结列表：",
+        "1. 装饰器本质：高阶函数",
+        "2. @语法糖与 wrapper 模式",
+        "3. 带参数装饰器：三层嵌套",
+        "4. 最佳实践：使用 functools.wraps"
+      ],
+      "animation_hints": [
+        "标题淡入",
+        "总结列表项伴随清脆的提示音逐条从下往上滑入",
+        "整体画面在最后 2 秒逐渐暗下"
+      ],
+      "key_points": [],
+      "code_snippet": null,
+      "code_language": null
+    }
+  ]
+}

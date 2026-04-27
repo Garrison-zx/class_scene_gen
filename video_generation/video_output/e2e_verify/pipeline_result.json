@@ -1,0 +1,28 @@
+{
+  "stages": {
+    "outline": {
+      "scene_count": 10,
+      "total_duration": 130.0,
+      "output": "video_output/e2e_verify/outline.json"
+    },
+    "scene_code": {
+      "scene_count": 10,
+      "files": [
+        "video_output/e2e_verify/generated/Scene01Title.tsx",
+        "video_output/e2e_verify/generated/Scene02Content.tsx",
+        "video_output/e2e_verify/generated/Scene03Diagram.tsx",
+        "video_output/e2e_verify/generated/Scene04Transition.tsx",
+        "video_output/e2e_verify/generated/Scene05Code.tsx",
+        "video_output/e2e_verify/generated/Scene06Content.tsx",
+        "video_output/e2e_verify/generated/Scene07Transition.tsx",
+        "video_output/e2e_verify/generated/Scene08Code.tsx",
+        "video_output/e2e_verify/generated/Scene09Content.tsx",
+        "video_output/e2e_verify/generated/Scene10Summary.tsx"
+      ]
+    },
+    "assemble": {
+      "root_tsx": "video_output/e2e_verify/Root.tsx"
+    }
+  },
+  "output_dir": "video_output/e2e_verify"
+}

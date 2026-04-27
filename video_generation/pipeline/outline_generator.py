@@ -15,6 +15,7 @@ import re
 from pathlib import Path
 from typing import Any, Optional
 
+from .llm_client import call_llm_text
 from .types import (
     OutlineResult,
     PipelineConfig,
@@ -137,29 +138,17 @@ def _call_llm(
     system_prompt: str,
     user_prompt: str,
     config: PipelineConfig,
+    *,
+    max_tokens: int,
 ) -> str:
     """调用 LLM API，返回文本响应。"""
-    try:
-        from openai import OpenAI
-    except ImportError:
-        raise ImportError("请安装 openai: pip install openai")
-
-    client = OpenAI(
-        api_key=config.llm_api_key,
-        base_url=config.llm_base_url or None,
-    )
-
-    response = client.chat.completions.create(
-        model=config.llm_model,
-        messages=[
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_prompt},
-        ],
+    return call_llm_text(
+        system_prompt=system_prompt,
+        user_prompt=user_prompt,
+        config=config,
         temperature=0.7,
-        max_tokens=8192,
+        max_tokens=max_tokens,
     )
-
-    return response.choices[0].message.content or ""
 
 
 # ────────────────────────────────────────────
@@ -201,12 +190,43 @@ def generate_outline(
         logger.debug(f"System prompt:\n{system_prompt[:500]}...")
         logger.debug(f"User prompt:\n{user_prompt[:500]}...")
 
-    raw_response = _call_llm(system_prompt, user_prompt, config)
+    # 避免截断：分级提升 max_tokens，直到响应可解析为 JSON。
+    token_candidates = [8192, 16384, 32768]
+    last_response = ""
+    last_error: Exception | None = None
+    parsed: dict[str, Any] | None = None
 
-    if config.verbose:
-        logger.debug(f"LLM response:\n{raw_response[:1000]}...")
+    for idx, max_tokens in enumerate(token_candidates, start=1):
+        raw_response = _call_llm(
+            system_prompt,
+            user_prompt,
+            config,
+            max_tokens=max_tokens,
+        )
+        last_response = raw_response
 
-    parsed = _parse_json_response(raw_response)
+        if config.verbose:
+            logger.debug(f"LLM response attempt {idx} (max_tokens={max_tokens}):\n{raw_response[:1000]}...")
+
+        try:
+            parsed = _parse_json_response(raw_response)
+            break
+        except Exception as exc:
+            last_error = exc
+            logger.warning(
+                "Stage 1 响应解析失败，疑似截断。attempt=%s/%s max_tokens=%s error=%s",
+                idx,
+                len(token_candidates),
+                max_tokens,
+                exc,
+            )
+
+    if parsed is None:
+        raise ValueError(
+            "Stage 1 连续重试后仍无法解析有效 JSON。"
+            f" last_error={last_error}; response_head={last_response[:500]!r}"
+        )
+
     result = _parse_outlines(parsed)
 
     logger.info(f"  生成 {len(result.outlines)} 个场景，总时长 {result.total_duration:.0f}s")

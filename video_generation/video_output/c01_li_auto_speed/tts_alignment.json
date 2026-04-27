@@ -1,0 +1,54 @@
+{
+  "padding_ms": 300,
+  "fps": 30,
+  "items": [
+    {
+      "scene_id": "scene_01",
+      "base_frames": 240,
+      "audio_frames": 286,
+      "new_frames": 286
+    },
+    {
+      "scene_id": "scene_02",
+      "base_frames": 360,
+      "audio_frames": 333,
+      "new_frames": 360
+    },
+    {
+      "scene_id": "scene_03",
+      "base_frames": 120,
+      "audio_frames": 262,
+      "new_frames": 262
+    },
+    {
+      "scene_id": "scene_04",
+      "base_frames": 360,
+      "audio_frames": 363,
+      "new_frames": 363
+    },
+    {
+      "scene_id": "scene_05",
+      "base_frames": 450,
+      "audio_frames": 446,
+      "new_frames": 450
+    },
+    {
+      "scene_id": "scene_06",
+      "base_frames": 120,
+      "audio_frames": 195,
+      "new_frames": 195
+    },
+    {
+      "scene_id": "scene_07",
+      "base_frames": 480,
+      "audio_frames": 415,
+      "new_frames": 480
+    },
+    {
+      "scene_id": "scene_08",
+      "base_frames": 450,
+      "audio_frames": 446,
+      "new_frames": 450
+    }
+  ]
+}
